@@ -14,40 +14,43 @@ export default function Header() {
     <Container
       direction="row"
       justify="space-between"
-      alignItems="center"
+      alignitems="center"
       css={{
-        paddingTop: 10,
-        paddingBottom: 10,
-        [mq[0]]: {
-          paddingRight: 10,
-          paddingLeft: 10,
-        },
-        [mq[1]]: {
-          paddingRight: 25,
-          paddingLeft: 25,
-        },
-        [mq[2]]: {
-          paddingRight: 30,
-          paddingLeft: 30,
-        },
-        [mq[3]]: {
-          paddingRight: 40,
-          paddingLeft: 40,
-        },
-        background: ['linear-gradient(72deg,#6f55ff,#bbf6ff)'],
+        position: 'fixed',
+        top: 0,
+        left: 0,
+        right: 0,
+        paddingTop: 8,
+        paddingBottom: 8,
+        // [mq[0]]: {
+        //   paddingRight: 10,
+        //   paddingLeft: 10,
+        // },
+        // [mq[1]]: {
+        //   paddingRight: 25,
+        //   paddingLeft: 25,
+        // },
+        // [mq[2]]: {
+        //   paddingRight: 30,
+        //   paddingLeft: 30,
+        // },
+        // [mq[3]]: {
+        //   paddingRight: 40,
+        //   paddingLeft: 40,
+        // },
+        background: ['linear-gradient(72deg,black,#fff)'],
         '&:hover': {
           opacity: 0.8,
         },
-        '-webkit-box-shadow':
-          '0px 1px 5px 3px #ccc' /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */,
-        '-moz-box-shadow': '0px 1px 5px 3px #ccc' /* Firefox 3.5 - 3.6 */,
-        'box-shadow': '0px 1px 5px 3px #ccc',
+        // background: 'black',
+        boxShadow: 'rgba(40,50,60,.06)',
+        // '0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12)',
       }}
     >
-      <ArticleText>Mata</ArticleText>
-      <a href="https://github.com/MATA0406">
+      {/* <ArticleText>J.H Jung</ArticleText> */}
+      {/* <a href="https://github.com/MATA0406">
         <img src={Logo} width={40} height={40} alt="" />
-      </a>
+      </a> */}
     </Container>
   );
 }

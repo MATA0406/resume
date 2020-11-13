@@ -18,11 +18,12 @@ import { jsx } from '@emotion/react';
 const Row = (props: any) => (
   <div
     css={{
-      width: '100%',
-      flex: 'auto',
-      flexDirection: 'row',
+      display: 'flex',
       flexWrap: 'wrap',
-      justifyContent: 'center',
+      // width: '100%',
+      // flexGrow: 1,
+      // flexDirection: 'row',
+      // justifyContent: 'flex-start',
     }}
     {...props}
   />

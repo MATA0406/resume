@@ -10,7 +10,7 @@ interface Props {
     | 'space-between'
     | 'space-around'
     | 'space-evenly';
-  alignItems?: 'flex-start' | 'center' | 'flex-end' | 'stretch' | 'baseline';
+  align?: 'flex-start' | 'center' | 'flex-end' | 'stretch' | 'baseline';
   children: any;
   [key: string]: any;
 }
@@ -19,10 +19,10 @@ const Container = (props: Props) => (
   <div
     css={{
       display: 'flex',
-      // 'flex-wrap': 'wrap',
       flexDirection: props.direction && props.direction,
       justifyContent: props.justify && props.justify,
-      alignItems: props.alignItems && props.alignItems,
+      alignItems: props.align && props.align,
+      flexWrap: 'wrap',
     }}
     {...props}
   />

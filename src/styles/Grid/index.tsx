@@ -15,25 +15,22 @@ const calcWidthPercent = (span: any) => {
 const Grid = (props: any) => (
   <div
     css={{
-      float: 'left',
-      // margin: 2,
-      // padding: '1rem',
-      background: '#ccc',
-
-      width: `${props.xs ? `${calcWidthPercent(props.xs)}%` : `100%`}`,
+      display: (props.direction || props.justify || props.alignitems) && 'flex',
+      flexDirection: props.direction && props.direction,
+      justifyContent: props.justify && props.justify,
+      alignItems: props.alignitems && props.alignitems,
+      padding: 12,
+      boxSizing: 'border-box',
+      flexBasis: `${props.xs ? `${calcWidthPercent(props.xs)}%` : `auto`}`,
+      '@media only screen and (min-width: 420px)': {
+        flexBasis: `${props.sm ? `${calcWidthPercent(props.sm)}%` : 'auto'}`,
+      },
       '@media only screen and (min-width: 768px)': {
-        width: `${props.sm && `${calcWidthPercent(props.sm)}%`}`,
+        flexBasis: `${props.md ? `${calcWidthPercent(props.md)}%` : 'auto'}`,
       },
-      '@media only screen and (min-width: 992px)': {
-        width: `${props.md && `${calcWidthPercent(props.md)}%`}`,
+      '@media only screen and (min-width: 1024px)': {
+        flexBasis: `${props.lg ? `${calcWidthPercent(props.lg)}%` : 'auto'}`,
       },
-      '@media only screen and (min-width: 1200px)': {
-        width: `${props.lg && `${calcWidthPercent(props.lg)}%`}`,
-      },
-      // width: `${props.span ? (props.span / 12) * 100 : '8.33'}%`,
-      // '@media only screen and (max-width: 768px)': {
-      //   width: '100%',
-      // },
     }}
     {...props}
   />
