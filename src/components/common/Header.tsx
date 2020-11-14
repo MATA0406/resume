@@ -1,9 +1,9 @@
 /** @jsx jsx */
 import { jsx } from '@emotion/react';
 // Styles
-import { Container, ArticleText } from 'styles';
+import { Container } from 'styles';
 // Logo
-import Logo from 'images/github.png';
+// import Logo from 'images/github.png';
 
 const breakpoints = [300, 768, 992, 1200];
 

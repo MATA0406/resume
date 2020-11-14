@@ -35,7 +35,7 @@ export default function ProfileSection() {
           <h1
             css={{
               margin: 0,
-              fontWeight: 700,
+              fontWeight: 400,
               fontSize: '4rem',
               '@media only screen and (max-width: 768px)': {
                 fontSize: '3rem',
@@ -47,7 +47,7 @@ export default function ProfileSection() {
           <h1
             css={{
               margin: 0,
-              fontWeight: 700,
+              fontWeight: 400,
               fontSize: '4rem',
               '@media only screen and (max-width: 768px)': {
                 fontSize: '3rem',
