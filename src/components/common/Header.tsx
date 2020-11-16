@@ -16,10 +16,10 @@ export default function Header() {
       justify="space-between"
       alignitems="center"
       css={{
-        position: 'fixed',
-        top: 0,
-        left: 0,
-        right: 0,
+        // position: 'fixed',
+        // top: 0,
+        // left: 0,
+        // right: 0,
         paddingTop: 8,
         paddingBottom: 8,
         // [mq[0]]: {
