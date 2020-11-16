@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from '@emotion/react';
-import {Fragment} from 'react';
+import { Fragment } from 'react';
 // Styles
 import { Container, Grid, ImageCard } from 'styles';
 // Image
@@ -11,18 +11,18 @@ import Material from 'images/material.png';
 import Bootstrap from 'images/bootstrap.jpg';
 import Emotion from 'images/emotion.png';
 import Typescript from 'images/typescript.png';
-import Javacript from 'images/javascript.png';
+import Javascript from 'images/javascript.png';
 import Html from 'images/html.jpg';
 import Css from 'images/css.png';
 import Github from 'images/github.png';
 import Jest from 'images/jest.png';
 
 interface ImageInfo {
-    name: string;
-    image: string
+  name: string;
+  image: string;
 }
 
-const IMAGES1: ImageInfo[] = [
+const IMAGES: ImageInfo[] = [
   {
     name: 'React',
     image: React,
@@ -47,15 +47,13 @@ const IMAGES1: ImageInfo[] = [
     name: 'Emotion',
     image: Emotion,
   },
-];
-const IMAGES2: ImageInfo[] = [
   {
     name: 'Typescript',
     image: Typescript,
   },
   {
-    name: 'Javacript',
-    image: Javacript,
+    name: 'Javascript',
+    image: Javascript,
   },
   {
     name: 'Html',
@@ -77,38 +75,20 @@ const IMAGES2: ImageInfo[] = [
 
 export default function SkillSection() {
   return (
-<Fragment>
-
+    <Fragment>
       <Container
         direction="row"
         justify="center"
         align="flex-start"
-        css={{ boxSizing: 'inherit' }}
+        css={{ marginBottom: 80 }}
       >
-        {
-          IMAGES1?.length > 0 && IMAGES1.map(item => (
-            <Grid css={{ boxSizing: 'inherit', marginBottom: 40 }}>
+        {IMAGES?.length > 0 &&
+          IMAGES.map((item) => (
+            <Grid key={item.name}>
               <ImageCard imageInfo={item} />
             </Grid>
-          ))
-        }
+          ))}
       </Container>
-
-      <Container
-        direction="row"
-        justify="center"
-        align="flex-start"
-        css={{ boxSizing: 'inherit' }}
-      >
-        {
-          IMAGES2?.length > 0 && IMAGES2.map(item => (
-            <Grid direction="column" css={{ boxSizing: 'inherit', marginBottom: 60 }}>
-              <ImageCard imageInfo={item}/>
-            </Grid>
-          ))
-        }
-      </Container>
-</Fragment>
-    
+    </Fragment>
   );
 }

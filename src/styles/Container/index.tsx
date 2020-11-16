@@ -23,6 +23,7 @@ const Container = (props: Props) => (
       justifyContent: props.justify && props.justify,
       alignItems: props.align && props.align,
       flexWrap: 'wrap',
+      boxSizing: 'border-box',
     }}
     {...props}
   />

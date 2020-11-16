@@ -12,13 +12,27 @@ const calcWidthPercent = (span: any) => {
 // const BREAK_POINT_TABLET = 992;
 // const BREAK_POINT_PC = 1200;
 
-const Grid = (props: any) => (
+interface Props {
+  direction?: 'row' | 'row-reverse' | 'column' | 'column-reverse';
+  justify?:
+    | 'flex-start'
+    | 'center'
+    | 'flex-end'
+    | 'space-between'
+    | 'space-around'
+    | 'space-evenly';
+  align?: 'flex-start' | 'center' | 'flex-end' | 'stretch' | 'baseline';
+  children: any;
+  [key: string]: any;
+}
+
+const Grid = (props: Props) => (
   <div
     css={{
-      display: (props.direction || props.justify || props.alignitems) && 'flex',
+      display: (props.direction || props.justify || props.align) && 'flex',
       flexDirection: props.direction && props.direction,
       justifyContent: props.justify && props.justify,
-      alignItems: props.alignitems && props.alignitems,
+      alignItems: props.align && props.align,
       padding: 12,
       boxSizing: 'border-box',
       flexBasis: `${props.xs ? `${calcWidthPercent(props.xs)}%` : `auto`}`,
