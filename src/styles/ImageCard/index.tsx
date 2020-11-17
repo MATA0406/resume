@@ -25,7 +25,7 @@ const ImageCard = ({ imageInfo, ...props }: Props) => {
         marginTop: 30,
         '&:hover': {
           opacity: 0.8,
-          marginTop: 15,
+          marginTop: 20,
           transition: '.30s all',
         },
       }}

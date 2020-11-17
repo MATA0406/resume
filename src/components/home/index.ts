@@ -1,5 +1,6 @@
-import SkillSection from 'components/home/SkillSection';
-import ProfileSection from 'components/home/ProfileSection';
-import WorkExperience from 'components/home/WorkExperience';
+import SkillSection from './SkillSection';
+import ProfileSection from './ProfileSection';
+import WorkExperience from './WorkExperience';
+import Award from './Award'
 
-export {SkillSection, ProfileSection, WorkExperience}
+export {SkillSection, ProfileSection, WorkExperience, Award}

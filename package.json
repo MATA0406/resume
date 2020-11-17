@@ -18,6 +18,7 @@
   "react-dom": "^17.0.1",
   "react-router-dom": "5.2.0",
   "react-scripts": "4.0.0",
+  "react-snap": "1.23.0",
   "typescript": "^4.0.3",
   "web-vitals": "^0.2.4"
  },
@@ -26,6 +27,7 @@
   "build": "react-scripts build",
   "test": "react-scripts test",
   "eject": "react-scripts eject",
+  "postbuild": "react-snap",
   "predeploy": "yarn build",
   "deploy": "gh-pages -d build"
  },

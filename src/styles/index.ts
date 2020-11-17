@@ -5,6 +5,7 @@ import ImageCard from './ImageCard'
 import ArticleText from './Text/ArticleText'
 import Divider from './Divider'
 import Typography from './Typography'
+import FloatingButton from './FloatingButton'
 
 export {
   Container,
@@ -13,5 +14,6 @@ export {
   ImageCard,
   ArticleText,
   Divider,
-  Typography
+  Typography,
+  FloatingButton
 }
