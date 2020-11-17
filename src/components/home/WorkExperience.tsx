@@ -23,7 +23,16 @@ export default function WorkExperience() {
         </Grid>
         <Grid direction="column" lg={6} css={{ paddingBottom: 60 }}>
           <Fragment>
-            <h1 css={{ marginBottom: 0 }}>화해 관리자 Back Office</h1>
+            <h1
+              css={{
+                marginBottom: 0,
+                '@media only screen and (max-width: 1024px)': {
+                  fontSize: 24,
+                },
+              }}
+            >
+              화해 관리자 Back Office
+            </h1>
             <Typography>화해(버드뷰)</Typography>
             <Typography css={{ marginBottom: 15, color: '#ccc' }}>
               2020. 09 ~ 2020. 11
@@ -50,7 +59,17 @@ export default function WorkExperience() {
           </Fragment>
 
           <Fragment>
-            <h1 css={{ marginBottom: 0, marginTop: 60 }}>비블리</h1>
+            <h1
+              css={{
+                marginBottom: 0,
+                marginTop: 60,
+                '@media only screen and (max-width: 1024px)': {
+                  fontSize: 24,
+                },
+              }}
+            >
+              비블리
+            </h1>
             <Typography>라이앤캐처스</Typography>
             <Typography css={{ marginBottom: 15, color: '#ccc' }}>
               2020. 06 ~ 2020. 08
@@ -86,7 +105,16 @@ export default function WorkExperience() {
         </Grid>
         <Grid direction="column" lg={6} css={{ paddingBottom: 60 }}>
           <Fragment>
-            <h1 css={{ marginBottom: 0 }}>WUC</h1>
+            <h1
+              css={{
+                marginBottom: 0,
+                '@media only screen and (max-width: 1024px)': {
+                  fontSize: 24,
+                },
+              }}
+            >
+              WUC
+            </h1>
             <Typography>Ericsson-LG</Typography>
             <Typography css={{ marginBottom: 15, color: '#ccc' }}>
               2019. 04 ~ 2019. 08
@@ -108,7 +136,17 @@ export default function WorkExperience() {
           </Fragment>
 
           <Fragment>
-            <h1 css={{ marginBottom: 0, marginTop: 60 }}>장비 관리 시스템</h1>
+            <h1
+              css={{
+                marginBottom: 0,
+                marginTop: 60,
+                '@media only screen and (max-width: 1024px)': {
+                  fontSize: 24,
+                },
+              }}
+            >
+              장비 관리 시스템
+            </h1>
             <Typography>펜타웍스</Typography>
             <Typography css={{ marginBottom: 15, color: '#ccc' }}>
               2019. 03 ~ 2019. 04
@@ -128,7 +166,17 @@ export default function WorkExperience() {
           </Fragment>
 
           <Fragment>
-            <h1 css={{ marginBottom: 0, marginTop: 60 }}>GNCMS</h1>
+            <h1
+              css={{
+                marginBottom: 0,
+                marginTop: 60,
+                '@media only screen and (max-width: 1024px)': {
+                  fontSize: 24,
+                },
+              }}
+            >
+              GNCMS
+            </h1>
             <Typography>굿네이버스</Typography>
             <Typography css={{ marginBottom: 15, color: '#ccc' }}>
               2018. 08 ~ 2019. 02

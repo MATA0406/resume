@@ -2,7 +2,7 @@
 import { jsx } from '@emotion/react';
 import { Fragment } from 'react';
 // Styles
-import { Container, Grid, Divider, Typography } from 'styles';
+import { Container, Grid, Typography } from 'styles';
 
 export default function Award() {
   return (
@@ -22,7 +22,16 @@ export default function Award() {
         </Grid>
         <Grid direction="column" lg={6} css={{ paddingBottom: 60 }}>
           <Fragment>
-            <h1 css={{ marginBottom: 0 }}>팀 프로젝트 경연 최우수상</h1>
+            <h1
+              css={{
+                marginBottom: 0,
+                '@media only screen and (max-width: 1024px)': {
+                  fontSize: 24,
+                },
+              }}
+            >
+              팀 프로젝트 경연 최우수상
+            </h1>
             <Typography css={{ marginBottom: 15, color: '#ccc' }}>
               2018. 07
             </Typography>
