@@ -46,6 +46,9 @@ export default function CommonLayout({ children }: Props) {
             bottom: 50,
             marginLeft: 20,
           },
+          '@media only screen and (max-width: 1024px)': {
+            marginBottom: 30,
+          },
         }}
       >
         <Grid direction="column">
@@ -70,7 +73,7 @@ export default function CommonLayout({ children }: Props) {
               Profile &#x1F385;
             </h1>
             <Container direction="column" justify="flex-start">
-              <Grid direction="column" align="flex-start">
+              <Grid direction="column" justify="flex-start" align="flex-start">
                 <Typography css={{ fontSize: 18, fontWeight: 700 }}>
                   정진호
                 </Typography>
