@@ -80,7 +80,7 @@ export default function CommonLayout({ children }: Props) {
                   Front-End Developer
                 </Typography>
                 <Typography css={{ fontSize: 16 }}>
-                  Mobile: 010-5722-0406
+                  Mobile: 010 - 5722 - 0406
                 </Typography>
                 <Typography css={{ fontSize: 16 }}>
                   E-mail: jinho_46@naver.com
