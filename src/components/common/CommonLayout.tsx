@@ -72,20 +72,31 @@ export default function CommonLayout({ children }: Props) {
             >
               Profile &#x1F385;
             </h1>
-            <Container direction="column" justify="flex-start">
+            <Container
+              direction="column"
+              justify="flex-start"
+              align="flex-start"
+            >
               <Grid direction="column" justify="flex-start" align="flex-start">
-                <Typography css={{ fontSize: 18, fontWeight: 700 }}>
+                <Typography
+                  css={{ fontSize: 18, fontWeight: 700, textAlign: 'start' }}
+                >
                   정진호
                 </Typography>
                 <Typography
-                  css={{ fontSize: 16, color: '#ccc', marginBottom: 20 }}
+                  css={{
+                    fontSize: 16,
+                    color: '#ccc',
+                    marginBottom: 20,
+                    textAlign: 'start',
+                  }}
                 >
                   Front-End Developer
                 </Typography>
-                <Typography css={{ fontSize: 16 }}>
+                <Typography css={{ fontSize: 16, textAlign: 'start' }}>
                   Mobile: 010 - 5722 - 0406
                 </Typography>
-                <Typography css={{ fontSize: 16 }}>
+                <Typography css={{ fontSize: 16, textAlign: 'start' }}>
                   E-mail: jinho_46@naver.com
                 </Typography>
               </Grid>
