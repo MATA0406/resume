@@ -23,10 +23,10 @@ const ImageCard = ({ imageInfo, ...props }: Props) => {
         flexDirection: 'column',
         position: 'relative',
         marginTop: 30,
+        transition: '.30s all',
         '&:hover': {
           opacity: 0.8,
           marginTop: 20,
-          transition: '.30s all',
         },
       }}
     >
