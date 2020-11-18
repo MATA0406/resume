@@ -13,7 +13,7 @@
 - [라이앤캐처스](http://bibly.kr/)
   - Front-End Developer
   - 2020. 02 ~ 현재
-- [펜타웍스](http://bibly.kr/)
+- 펜타웍스
   - Front-End Developer
   - 2018. 08 ~ 2019. 09
 
