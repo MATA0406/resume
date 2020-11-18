@@ -1,14 +1,12 @@
 # JinHo Jung Resume
 
-안녕하세요. Front-End Developer 정진호입니다. [Resume](https://mata0406.github.io/resume/).
+안녕하세요. Front-End Developer \*정진호입니다. [Resume](https://mata0406.github.io/resume/).
 
 - E-mail: jinho_46@naver.com
 - Velog: https://velog.io/@wlsgh46
-- Rocketpunch: rocketpunch.com/@jjiinnhhoo46
+- Rocketpunch: https://rocketpunch.com/@jjiinnhhoo46
 
 ## Career &#x1F680;
-
----
 
 - [라이앤캐처스](http://bibly.kr/)
   - Front-End Developer
@@ -18,8 +16,6 @@
   - 2018. 08 ~ 2019. 09
 
 ## Project &#x1F308;
-
----
 
 ### 화해 관리자 Back Office
 
