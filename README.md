@@ -1,46 +1,85 @@
-# Getting Started with Create React App
+# JinHo Jung Resume
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+안녕하세요. Front-End Developer 정진호입니다. [Resume](https://mata0406.github.io/resume/).
 
-## Available Scripts
+- E-mail: jinho_46@naver.com
+- Velog: https://velog.io/@wlsgh46
+- Rocketpunch: rocketpunch.com/@jjiinnhhoo46
 
-In the project directory, you can run:
+## Career &#x1F680;
 
-### `yarn start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [라이앤캐처스](http://bibly.kr/)
+  - Front-End Developer
+  - 2020. 02 ~ 현재
+- [펜타웍스](http://bibly.kr/)
+  - Front-End Developer
+  - 2018. 08 ~ 2019. 09
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Project &#x1F308;
 
-### `yarn test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 화해 관리자 Back Office
 
-### `yarn build`
+`버드뷰`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 프론트 개발을 담당하였습니다.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. React.js 사용
+2. Hook, useForm 사용
+3. Typescript를 사용하여 Type 체크 및 코드 어시스트 지원
+4. Bootstrap, ReactStrap 기반의 UI 프레임워크 사용
+5. Redux, Redux Persist, Redux logger를 사용하여 Global 상태 관리
+6. ESList, Prettier를 사용하여 팀원들과의 코드 차이 개선, 깔끔한 코드 구축
+7. Gitlab, Github를 통한 소스 코드 관리
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 비블리
 
-### `yarn eject`
+`라이앤캐처스`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- 오직 나만을 위한 책 추천 인공지능 서점 앱 개발
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. React Native 사용
+2. React hook, Custom Hook, useForm 사용
+3. useContext를 사용하여 Global 상태 관리
+4. HOC를 사용하여 반복적인 코드 재사용
+5. Zeplin으로 디자인 참조
+6. Gitlab으로 소스 코드 관리
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### WUC
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+`Ericsson-LG`
 
-## Learn More
+- 오직 나만을 위한 책 추천 인공지능 서점 앱 개발
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. React Native 사용
+2. React hook, Custom Hook, useForm 사용
+3. useContext를 사용하여 Global 상태 관리
+4. HOC를 사용하여 반복적인 코드 재사용
+5. Zeplin으로 디자인 참조
+6. Gitlab으로 소스 코드 관리
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 장비 관리 시스템
+
+`펜타웍스`
+
+- 사내장비관리시스템입니다. 프론트 엔드를 담당하였습니다.
+
+1. React.js 기반의 프론트엔드 전체 부분 담당
+2. Redux, Redux-saga를 사용한 데이터 상태 관리
+3. Bootstrap을 사용하여 UI 구축
+4. 반응형 웹, 모바일 웹 구축
+5. git을 사용한 코드 관리
+
+### GNCMS
+
+`굿네이버스`
+
+- 결연아동을 관리하는 Back office입니다.
+
+1. JQuery 기반의 프론트엔드 담당
+2. Trello를 사용하여 태스크 관리
+3. SVN을 사용하여 코드 관리
+4. Bootstrap을 이용한 UI 구축
