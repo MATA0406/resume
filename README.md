@@ -1,5 +1,7 @@
 # JinHo Jung Resume
 
+<img src="https://user-images.githubusercontent.com/36847593/99474380-cfe6be80-298f-11eb-8ffd-d491d42fb14a.jpg" width="150px">
+
 안녕하세요. Front-End Developer \*정진호입니다. [Resume](https://mata0406.github.io/resume/).
 
 - E-mail: jinho_46@naver.com
