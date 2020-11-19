@@ -6,6 +6,7 @@ import ArticleText from './Text/ArticleText'
 import Divider from './Divider'
 import Typography from './Typography'
 import FloatingButton from './FloatingButton'
+import Button from './Button'
 
 export {
   Container,
@@ -15,5 +16,6 @@ export {
   ArticleText,
   Divider,
   Typography,
-  FloatingButton
+  FloatingButton,
+  Button
 }
