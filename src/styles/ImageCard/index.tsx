@@ -70,6 +70,9 @@ const ImageCard = ({ imageInfo, ...props }: Props) => {
               transform: 'translateX(-50%) translateY(-50%)',
               fontSize: 18,
               cursor: 'default',
+              '@media only screen and (max-width: 1024px)': {
+                fontSize: '0.7rem',
+              },
             }}
           >
             {imageInfo?.name}
