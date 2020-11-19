@@ -26,19 +26,38 @@ const ImageCard = ({ imageInfo, ...props }: Props) => {
         transition: '.30s all',
         '&:hover': {
           opacity: 0.8,
-          marginTop: 20,
+          marginTop: 25,
         },
       }}
     >
       <Card
-        css={{ width: 100, height: 100 }}
+        css={{
+          width: 100,
+          height: 100,
+          transition: '.30s all',
+          '&:hover': {
+            boxShadow: '0 2px 23px -4px rgba(0,0,0,0.5)',
+          },
+          '@media only screen and (max-width: 1024px)': {
+            width: 50,
+            height: 50,
+          },
+        }}
         onMouseLeave={() => setIsHover(false)}
         onMouseOver={() => setIsHover(true)}
         {...props}
       >
         <img
           src={imageInfo?.image}
-          css={{ width: 100, height: 100, opacity: isHover ? 0.3 : undefined }}
+          css={{
+            width: 100,
+            height: 100,
+            opacity: isHover ? 0.3 : undefined,
+            '@media only screen and (max-width: 1024px)': {
+              width: 50,
+              height: 50,
+            },
+          }}
           alt=""
         />
         {isHover && (
