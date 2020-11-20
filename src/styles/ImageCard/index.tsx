@@ -36,7 +36,7 @@ const ImageCard = ({ imageInfo, ...props }: Props) => {
           height: 100,
           transition: '.30s all',
           '&:hover': {
-            boxShadow: '0 2px 23px -4px rgba(0,0,0,0.5)',
+            boxShadow: '0 6px 16px -4px #005dba60',
           },
           '@media only screen and (max-width: 1024px)': {
             width: 50,
