@@ -18,8 +18,8 @@ const FloatingButton = ({ children, background, onClick, ...props }: Props) => {
         right: 200,
         bottom: 80,
         '@media only screen and (max-width: 1200px)': {
-          right: 30,
-          bottom: 30,
+          right: 35,
+          bottom: 60,
         },
       }}
       onClick={onClick}

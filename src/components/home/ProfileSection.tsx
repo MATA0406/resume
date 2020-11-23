@@ -46,11 +46,17 @@ export default function ProfileSection() {
         >
           정진호 입니다.
         </h1>
-        <Grid css={{ display: 'flex', padding: 0, marginTop: 30 }}>
+        <Grid
+          css={{
+            display: 'flex',
+            padding: 0,
+            marginTop: 30,
+            textAlign: 'start',
+          }}
+        >
           <Typography
             css={{
               fontSize: '1.8rem',
-              textAlign: 'start',
               '@media only screen and (max-width: 768px)': {
                 fontSize: '1.3rem',
               },

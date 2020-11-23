@@ -72,35 +72,31 @@ export default function CommonLayout({ children }: Props) {
             >
               Profile &#x1F385;
             </h1>
-            <Container
+            <Grid
               direction="column"
               justify="flex-start"
               align="flex-start"
+              css={{ textAlign: 'start' }}
             >
-              <Grid direction="column" justify="flex-start" align="flex-start">
-                <Typography
-                  css={{ fontSize: 18, fontWeight: 700, textAlign: 'start' }}
-                >
-                  정진호
-                </Typography>
-                <Typography
-                  css={{
-                    fontSize: 16,
-                    color: '#ccc',
-                    marginBottom: 20,
-                    textAlign: 'start',
-                  }}
-                >
-                  Front-End Developer
-                </Typography>
-                <Typography css={{ fontSize: 16, textAlign: 'start' }}>
-                  Mobile: 010 - 5722 - 0406
-                </Typography>
-                <Typography css={{ fontSize: 16, textAlign: 'start' }}>
-                  E-mail: jinho_46@naver.com
-                </Typography>
-              </Grid>
-            </Container>
+              <Typography css={{ fontSize: 18, fontWeight: 700 }}>
+                정진호
+              </Typography>
+              <Typography
+                css={{
+                  fontSize: 16,
+                  color: '#ccc',
+                  marginBottom: 20,
+                }}
+              >
+                Front-End Developer
+              </Typography>
+              <Typography css={{ fontSize: 16 }}>
+                Mobile: 010 - 5722 - 0406
+              </Typography>
+              <Typography css={{ fontSize: 16 }}>
+                E-mail: jinho_46@naver.com
+              </Typography>
+            </Grid>
           </Card>
         </Grid>
       </Container>
@@ -111,8 +107,8 @@ export default function CommonLayout({ children }: Props) {
           right: isFloating ? 200 : -100,
           bottom: 360,
           '@media only screen and (max-width: 1200px)': {
-            right: isFloating ? 30 : -100,
-            bottom: 310,
+            right: isFloating ? 35 : -100,
+            bottom: 340,
           },
           transition: '.900s all',
         }}
@@ -126,8 +122,8 @@ export default function CommonLayout({ children }: Props) {
           right: isFloating ? 200 : -100,
           bottom: 290,
           '@media only screen and (max-width: 1200px)': {
-            right: isFloating ? 30 : -100,
-            bottom: 240,
+            right: isFloating ? 35 : -100,
+            bottom: 270,
           },
           transition: '.600s all',
         }}
@@ -141,8 +137,8 @@ export default function CommonLayout({ children }: Props) {
           right: isFloating ? 200 : -100,
           bottom: 220,
           '@media only screen and (max-width: 1200px)': {
-            right: isFloating ? 30 : -100,
-            bottom: 170,
+            right: isFloating ? 35 : -100,
+            bottom: 200,
           },
           transition: '.300s all',
         }}
@@ -157,7 +153,7 @@ export default function CommonLayout({ children }: Props) {
         css={{
           bottom: 150,
           '@media only screen and (max-width: 1200px)': {
-            bottom: 100,
+            bottom: 130,
           },
         }}
       >
