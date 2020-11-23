@@ -32,15 +32,9 @@ const ImageCard = ({ imageInfo, ...props }: Props) => {
     >
       <Card
         css={{
-          width: 100,
-          height: 100,
           transition: '.30s all',
           '&:hover': {
             boxShadow: '0 6px 16px -4px #005dba60',
-          },
-          '@media only screen and (max-width: 1024px)': {
-            width: 50,
-            height: 50,
           },
         }}
         onMouseLeave={() => setIsHover(false)}

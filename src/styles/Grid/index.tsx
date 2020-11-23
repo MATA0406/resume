@@ -8,10 +8,6 @@ const calcWidthPercent = (span: any) => {
   return width;
 };
 
-// const BREAK_POINT_MOBILE = 768;
-// const BREAK_POINT_TABLET = 992;
-// const BREAK_POINT_PC = 1200;
-
 interface Props {
   direction?: 'row' | 'row-reverse' | 'column' | 'column-reverse';
   justify?:
@@ -29,12 +25,11 @@ interface Props {
 const Grid = (props: Props) => (
   <div
     css={{
+      padding: 12,
       display: (props.direction || props.justify || props.align) && 'flex',
       flexDirection: props.direction && props.direction,
       justifyContent: props.justify && props.justify,
       alignItems: props.align && props.align,
-      padding: 12,
-      boxSizing: 'border-box',
       flexBasis: `${props.xs ? `${calcWidthPercent(props.xs)}%` : `auto`}`,
       '@media only screen and (min-width: 420px)': {
         flexBasis: `${props.sm ? `${calcWidthPercent(props.sm)}%` : 'auto'}`,

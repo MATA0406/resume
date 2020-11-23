@@ -7,18 +7,8 @@ import Profile from 'images/profile.jpg';
 
 export default function ProfileSection() {
   return (
-    <Container
-      direction="column"
-      justify="center"
-      align="center"
-      css={{ boxSizing: 'inherit' }}
-    >
-      <Grid
-        direction="column"
-        justify="center"
-        align="center"
-        // css={{ boxSizing: 'inherit' }}
-      >
+    <Container direction="column" justify="center" align="center">
+      <Grid direction="column" justify="center" align="center">
         <div css={{ marginBottom: 20 }}>
           <img
             src={Profile}
@@ -56,7 +46,7 @@ export default function ProfileSection() {
         >
           정진호 입니다.
         </h1>
-        <Grid css={{ padding: 0, marginTop: 30 }}>
+        <Grid css={{ display: 'flex', padding: 0, marginTop: 30 }}>
           <Typography
             css={{
               fontSize: '1.8rem',

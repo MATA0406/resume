@@ -4,14 +4,7 @@ import { useState } from 'react';
 // Components
 import Header from './Header';
 // Styles
-import {
-  Container,
-  Grid,
-  FloatingButton,
-  Typography,
-  Card,
-  Button,
-} from 'styles';
+import { Container, Grid, FloatingButton, Typography, Card } from 'styles';
 // Images
 import Github from 'images/github2.png';
 import Rocket from 'images/rocket.png';
@@ -69,19 +62,16 @@ export default function CommonLayout({ children }: Props) {
               },
             }}
           >
-            <Grid direction="row" justify="space-between" align="center">
-              <h1
-                css={{
-                  marginTop: 0,
-                  marginBottom: 0,
-                  fontSize: '2.5rem',
-                  textAlign: 'start',
-                }}
-              >
-                Profile &#x1F385;
-              </h1>
-              <Button>test</Button>
-            </Grid>
+            <h1
+              css={{
+                marginTop: 0,
+                marginBottom: 0,
+                fontSize: '2.5rem',
+                textAlign: 'start',
+              }}
+            >
+              Profile &#x1F385;
+            </h1>
             <Container
               direction="column"
               justify="flex-start"

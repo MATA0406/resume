@@ -19,11 +19,10 @@ const Container = (props: Props) => (
   <div
     css={{
       display: 'flex',
+      flexWrap: 'wrap',
       flexDirection: props.direction && props.direction,
       justifyContent: props.justify && props.justify,
       alignItems: props.align && props.align,
-      flexWrap: 'wrap',
-      boxSizing: 'border-box',
     }}
     {...props}
   />
