@@ -6,6 +6,7 @@ import {
   ProfileSection,
   WorkExperience,
   Award,
+  Certificate,
 } from 'components/home';
 
 export default function Home() {
@@ -18,6 +19,8 @@ export default function Home() {
       <WorkExperience />
       <h1 css={{ marginTop: 60, fontSize: '2.5rem' }}>Award &#x1F60A;</h1>
       <Award />
+      <h1 css={{ marginTop: 60, fontSize: '2.5rem' }}>Certificate &#x1F4DC;</h1>
+      <Certificate />
     </div>
   );
 }
