@@ -7,6 +7,7 @@ import Divider from './Divider'
 import Typography from './Typography'
 import FloatingButton from './FloatingButton'
 import Button from './Button'
+import Modal from './Modal'
 
 export {
   Container,
@@ -17,5 +18,6 @@ export {
   Divider,
   Typography,
   FloatingButton,
-  Button
+  Button,
+  Modal
 }
