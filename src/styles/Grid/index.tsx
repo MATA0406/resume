@@ -8,19 +8,28 @@ const calcWidthPercent = (span: any) => {
   return width;
 };
 
-// const BREAK_POINT_MOBILE = 768;
-// const BREAK_POINT_TABLET = 992;
-// const BREAK_POINT_PC = 1200;
+interface Props {
+  direction?: 'row' | 'row-reverse' | 'column' | 'column-reverse';
+  justify?:
+    | 'flex-start'
+    | 'center'
+    | 'flex-end'
+    | 'space-between'
+    | 'space-around'
+    | 'space-evenly';
+  align?: 'flex-start' | 'center' | 'flex-end' | 'stretch' | 'baseline';
+  children: any;
+  [key: string]: any;
+}
 
-const Grid = (props: any) => (
+const Grid = (props: Props) => (
   <div
     css={{
-      display: (props.direction || props.justify || props.alignitems) && 'flex',
+      padding: 12,
+      display: (props.direction || props.justify || props.align) && 'flex',
       flexDirection: props.direction && props.direction,
       justifyContent: props.justify && props.justify,
-      alignItems: props.alignitems && props.alignitems,
-      padding: 12,
-      boxSizing: 'border-box',
+      alignItems: props.align && props.align,
       flexBasis: `${props.xs ? `${calcWidthPercent(props.xs)}%` : `auto`}`,
       '@media only screen and (min-width: 420px)': {
         flexBasis: `${props.sm ? `${calcWidthPercent(props.sm)}%` : 'auto'}`,

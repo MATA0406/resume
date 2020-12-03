@@ -20,8 +20,9 @@ export default function Header() {
         top: 0,
         left: 0,
         right: 0,
-        paddingTop: 8,
-        paddingBottom: 8,
+        paddingTop: 4,
+        paddingBottom: 4,
+        zIndex: 10,
         // [mq[0]]: {
         //   paddingRight: 10,
         //   paddingLeft: 10,

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <style>
+            .cls-1{fill:#707070}
+        </style>
+    </defs>
+    <g id="ic_close" transform="translate(-.039 .001)">
+        <path id="패스_4" d="M1.068 20a1.029 1.029 0 0 1-.728-1.758L18.283.3a1.029 1.029 0 0 1 1.455 1.455L1.8 19.7a1.032 1.032 0 0 1-.728.3zm0 0" class="cls-1"/>
+        <path id="패스_5" d="M19.011 20a1.021 1.021 0 0 1-.727-.3L.34 1.756A1.029 1.029 0 0 1 1.8.3l17.938 17.943A1.029 1.029 0 0 1 19.011 20zm0 0" class="cls-1"/>
+    </g>
+</svg>

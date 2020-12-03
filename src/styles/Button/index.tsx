@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from '@emotion/react';
-import { ReactNode } from 'react';
+import { ReactNode, useState } from 'react';
 
 interface Props {
   children: ReactNode;
@@ -9,10 +9,13 @@ interface Props {
 }
 
 const Button = ({ children, onClick, ...props }: Props) => {
+  const [isHover, setIsHover] = useState(false);
   return (
     <button
       type="button"
       onClick={onClick}
+      onMouseEnter={() => setIsHover(true)}
+      onMouseLeave={() => setIsHover(false)}
       css={{
         padding: 10,
         borderRadius: 5,
@@ -20,9 +23,7 @@ const Button = ({ children, onClick, ...props }: Props) => {
         outline: 'none',
         cursor: 'pointer',
         color: 'white',
-        background: '#00dacb',
-        boxShadow: '0 3px 6px 0 rgba(0, 0, 0, 0.16)',
-        // background: isHover ? '#555' : '#000',
+        background: isHover ? '#555' : '#000',
       }}
       {...props}
     >

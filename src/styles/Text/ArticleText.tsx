@@ -6,7 +6,6 @@ const ArticleText = (props: any) => (
     css={{
       fontSize: props.fontSize ? props.size : 28,
       fontWeight: 400,
-      // fontFamily: 'Catamaran',
       color: 'white',
     }}
     {...props}
