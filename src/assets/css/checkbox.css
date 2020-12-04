@@ -1,0 +1,26 @@
+.checkDiv {
+  position: relative;
+}
+
+input[type='checkbox'] {
+  display: none;
+}
+
+input[type='checkbox'] + label {
+  font-size: 18;
+  color: #616161;
+  cursor: pointer;
+}
+
+input[type='checkbox'] + label span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: -2px 10px 0 0;
+  vertical-align: middle;
+  background: url(assets/images/no_check.png) no-repeat 0 0px / contain;
+}
+
+input[type='checkbox']:checked + label span {
+  background: url(assets/images/checked.png) no-repeat 0 0px / contain;
+}

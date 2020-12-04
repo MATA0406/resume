@@ -8,6 +8,8 @@ import Typography from './Typography'
 import FloatingButton from './FloatingButton'
 import Button from './Button'
 import Modal from './Modal'
+import Input from './Input'
+import CheckBox from './CheckBox'
 
 export {
   Container,
@@ -19,5 +21,7 @@ export {
   Typography,
   FloatingButton,
   Button,
-  Modal
+  Modal,
+  Input,
+  CheckBox
 }
