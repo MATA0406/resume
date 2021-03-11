@@ -1,3 +1,16 @@
 # https://www.robotstxt.org/robotstxt.html
+# User-agent: *
+# Disallow:
+
 User-agent: *
-Disallow:
+Disallow: /
+
+# Google Search
+User-agent: Googlebot
+Allow : / 
+
+# Naver Search
+User-agent: Yeti
+Allow: /
+
+Sitemap: https://mata0406.github.io/resume/sitemap.xml
