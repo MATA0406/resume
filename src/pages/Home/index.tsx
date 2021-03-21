@@ -8,10 +8,14 @@ import {
   Award,
   Certificate,
 } from 'components/home';
+import { Helmet } from 'react-helmet';
 
 export default function Home() {
   return (
     <div>
+      <Helmet>
+        <title>test1</title>
+      </Helmet>
       <ProfileSection />
       <h1 css={{ marginTop: 60, fontSize: '2.5rem' }}>Skill &#x1F3A8;</h1>
       <SkillSection />
